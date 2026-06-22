@@ -1,5 +1,3 @@
-<script>
-let text;
 switch (new Date().getDay()) {
   default:
     text = "Looking forward to the Weekend";
@@ -10,4 +8,3 @@ switch (new Date().getDay()) {
   case 0:
     text = "Today is Sunday";
 }
-</script>
