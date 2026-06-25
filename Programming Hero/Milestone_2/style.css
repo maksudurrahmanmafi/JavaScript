@@ -1,0 +1,86 @@
+/* ১. পুরো পেজের ব্যাকগ্রাউন্ড ও ফন্ট সেটআপ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-index: center;
+    align-items: center;
+}
+
+/* ২. হেডিং এবং সাবটাইটেল স্টাইল */
+#heading {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+#subtitle {
+    color: #7f8c8d;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ৩. ফর্মের মূল বক্সের স্টাইল (কার্ড লুক) */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* ৪. লেবেল বা টাইটেল স্টাইল */
+label {
+    display: block;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 2px;
+    font-size: 0.95rem;
+}
+
+/* ৫. ইনপুট ফিল্ডগুলোর আধুনিক স্টাইল */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* ইনপুট বক্সে ক্লিক করলে যে ইফেক্ট হবে */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+    outline: none;
+}
+
+/* ৬. সাবমিট বাটনের আকর্ষণীয় স্টাইল */
+.button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* বাটনের ওপর মাউস রাখলে কালার চেঞ্জ হবে */
+.button:hover {
+    background-color: #2980b9;
+}
